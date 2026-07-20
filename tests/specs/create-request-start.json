@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Create request",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Initiate the request creation flow"
+            }
+          }
+        ],
+        "send": {
+          "callback": "create_request:start"
+        }
+      }
+    ]
+  }
+]
