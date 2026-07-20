@@ -1,0 +1,20 @@
+[
+  {
+    "name": "My requests",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "View a list of the user's active requests"
+            }
+          }
+        ],
+        "send": {
+          "callback": "my_requests:list"
+        }
+      }
+    ]
+  }
+]
